@@ -1,0 +1,24 @@
+{
+  "group": "islam_mod_epic",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:glowstone_dust"
+    },
+    "1": {
+      "item": "minecraft:blue_dye"
+    },
+    "2": {
+      "item": "minecraft:sugar"
+    }
+  },
+  "result": {
+    "item": "islam_mod_epic:urinalcake",
+    "count": 1
+  }
+}

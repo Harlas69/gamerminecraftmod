@@ -1,0 +1,11 @@
+{
+  "fortunate_son": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "islam_mod_epic:fortunate_son",
+        "stream": false
+      }
+    ]
+  }
+}
