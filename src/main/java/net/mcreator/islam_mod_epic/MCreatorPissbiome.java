@@ -46,7 +46,7 @@ public class MCreatorPissbiome extends Elementsislam_mod_epic.ModElement {
 			super(new Biome.Builder()
 					.downfall(0.69f)
 					.depth(0.1f)
-					.scale(0.8f)
+					.scale(0.9f)
 					.temperature(0.5f)
 					.precipitation(Biome.RainType.RAIN)
 					.category(Biome.Category.NONE)
@@ -68,18 +68,20 @@ public class MCreatorPissbiome extends Elementsislam_mod_epic.ModElement {
 			addFeature(GenerationStage.Decoration.VEGETAL_DECORATION, Biome.createDecoratedFeature(Feature.DEAD_BUSH,
 					IFeatureConfig.NO_FEATURE_CONFIG, Placement.COUNT_HEIGHTMAP_DOUBLE, new FrequencyConfig(20)));
 			this.addSpawn(EntityClassification.CREATURE, new Biome.SpawnListEntry(EntityType.BAT, 15, 1, 5));
+			this.addSpawn(EntityClassification.CREATURE, new Biome.SpawnListEntry(MCreatorPisscow.entity, 15, 1, 5));
+			this.addSpawn(EntityClassification.CREATURE, new Biome.SpawnListEntry(EntityType.EGG, 15, 1, 5));
 		}
 
 		@OnlyIn(Dist.CLIENT)
 		@Override
 		public int getGrassColor(BlockPos pos) {
-			return -13421569;
+			return -3342490;
 		}
 
 		@OnlyIn(Dist.CLIENT)
 		@Override
 		public int getFoliageColor(BlockPos pos) {
-			return -13421569;
+			return -3342490;
 		}
 
 		@OnlyIn(Dist.CLIENT)

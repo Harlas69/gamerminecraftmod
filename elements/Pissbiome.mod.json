@@ -32,7 +32,7 @@
       "falpha": 0.0
     },
     "grassColor": {
-      "value": -13421569,
+      "value": -3342490,
       "falpha": 0.0
     },
     "waterColor": {
@@ -52,7 +52,7 @@
     "rainingPossibility": 0.69,
     "temperature": 0.5,
     "baseHeight": 0.1,
-    "heightVariation": 0.8,
+    "heightVariation": 0.9,
     "spawnBiome": true,
     "biomeWeight": 100,
     "biomeType": "WARM",
@@ -64,6 +64,12 @@
     "spawnList": [
       {
         "value": "EntityBat"
+      },
+      {
+        "value": "CUSTOM:Pisscow"
+      },
+      {
+        "value": "EntityEgg"
       }
     ]
   }

@@ -52,6 +52,14 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "Pisscow",
+      "type": "mob",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -65,7 +73,9 @@
   "language_map": {
     "en_us": {
       "biome.islam_mod_epic.pissbiome": "Pissbiome",
-      "item.islam_mod_epic.urinalcake": "Urinalcake"
+      "item.islam_mod_epic.urinalcake": "Urinalcake",
+      "item.islam_mod_epic.pisscow": "Piss Cow Spawn Egg",
+      "entity.islam_mod_epic.pisscow": "Piss Cow"
     }
   },
   "workspaceSettings": {
